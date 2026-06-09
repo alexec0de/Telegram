@@ -1814,8 +1814,8 @@ uint8_t ConnectionsManager::getIpStratagy() {
 void ConnectionsManager::initDatacenters() {
     Datacenter *datacenter;
     // Opengram: all DCs point to a single server.
-    const char *kOpengramHost = "51.250.119.114";
-    const int kOpengramPort = 4430;
+    const char *kOpengramHost = "5.175.223.44";
+    const int kOpengramPort = 30444;
     for (int dcId = 1; dcId <= 5; ++dcId) {
         if (datacenters.find(dcId) == datacenters.end()) {
             datacenter = new Datacenter(instanceNum, dcId);
