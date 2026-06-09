@@ -1505,12 +1505,12 @@ TL_help_configSimple *Datacenter::decodeSimpleConfig(NativeByteBuffer *buffer) {
 
     static std::string public_key =
             "-----BEGIN RSA PUBLIC KEY-----\n"
-                    "OPENGRAM_PUBKEY_LINE_1_HERE\n"
-                    "OPENGRAM_PUBKEY_LINE_2_HERE\n"
-                    "OPENGRAM_PUBKEY_LINE_3_HERE\n"
-                    "OPENGRAM_PUBKEY_LINE_4_HERE\n"
-                    "OPENGRAM_PUBKEY_LINE_5_HERE\n"
-                    "OPENGRAM_PUBKEY_LINE_6_HERE\n"
+                    "MIIBCgKCAQEAhUCF/p27uylgaSUNZk+jvjNhhUEv0wZDodxOVr7uiXJpHl6VLMAX\n"
+                    "KchWQLSYsI8Ni3nu4Kscuwlv5QedCWOMXK6j8uw6URwJu5+9iJikc2NjfFUdJ0Xh\n"
+                    "Xlx7ZLtxFwwwBAIVck3wIGZg6ntE3e6n/JNRfNS83m6SPL6VQxxurS5mPJVlR1+I\n"
+                    "WQNxGiSUyIBA/LHhGsDisQwe4CX9r8UDn7ZnZtgG0GGnd6hliTBil8ixs4sAl+wc\n"
+                    "ICFde8RiA4wGY6HsfEL94DUDOOkYLrhoYJJKifFCtxDXvkzEqF5M7kmsZG2Gy3cz\n"
+                    "r8syNPw+4W23uM398eHKhPWOqnubZMndeQIDAQAB\n"
                     "-----END RSA PUBLIC KEY-----";
 
     BIO *keyBio = BIO_new(BIO_s_mem());
